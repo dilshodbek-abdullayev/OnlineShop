@@ -1,0 +1,38 @@
+Singleton nima?
+
+Singleton C# da loyihalashda ishlatiladigan dizayn patterni bo'lib, klassni bitta obyektini faqat bir marta yaratishni ta'minlaydi.
+Singleton patterni orqali, bir klassni bo'sh obyektini yaratish va undan foydalanish imkoniyatini cheklash mumkinligini ta'minlash uchun tuziladi.
+Singleton patternining bir necha xususiyatlari mavjud:
+Bitta obyekt: Singleton klassidan faqat bitta obyekt yaratiladi. Boshqa obyektlar yaratish mumkin emas.
+Singleton klassida private constructor ishlatiladi,bu boshqa obyektdan klassni to'g'ridan to'g'ri yaratishni cheklaydi
+
+Sealed nima?
+
+Sealed c# tilida "qulflangan"deb tarjima qilinadi , uklass method va propertiyni belgilashda ishlatiladi.Agar klass sealed bo'lsa undan meros olib bo'lmaydi.
+metod va propertyni sealed qilsak uchbu belgilanganni qulflaydi bunda boshqa klassdan uni implementatsiya qilib bo'lmaydi
+
+Constructor private bo'lsa?
+
+Agar klass konstruktori private bo'lsa, unga faqat o'shanda klassning o'zida murojaat qilish mumkin bo'ladi. 
+Boshqa klasslar esa ushbu klassni yaratib o'z holatida ishlatishlari mumkin emas.
+
+DI container nima?
+
+Dependency Injection (DI) konteyneri, bir loyiha yoki ilovalarda qo'llaniladigan komponentlarni avtomatik ravishda yaratish, birlashtirish va injeksiya qilish imkonini ta'minlayan
+bir mexanizmni ifodalaydi.
+DI konteyneri, loyihada ishlatiladigan obyektlar orasidagi bog'lanishlarni boshqarishda yordam beradi. U komponentlarni avtomatik ravishda yaratib beradi va ularning kerakli 
+bog'lanishlarini (dependency) injeksiya qiladi. 
+Bu, komponentlar orasidagi bog'lanishlarni qo'llab-quvvatlash va kodni yoritishni osonlashtiradi.
+
+IOS container nima?
+
+IOC (Inversion of Control) konteyneri, komponentlarni yaratish, birlashtirish va injeksiya qilishning avtomatik ravishda amalga oshirilishi uchun ishlatiladigan bir mexanizmdir.
+IOC konteyneri, DI (Dependency Injection) prinsiplarini amalga oshirish uchun foydalaniladi.
+IOC konteyneri, loyihada ishlatiladigan obyektlarni avtomatik ravishda yaratish, bog'lanishlarni boshqarish va injeksiya qilishni tahlil qilish va amalga oshirish imkonini beradi. 
+U komponentlarni yaratish, bog'lanishlarni injeksiya qilish va ularga kerakli obyektlarni taqdim etish jarayonlarini avtomatik ravishda boshqaradi.
+
+Constructor nima?
+
+Constructor (quruvchi) bir obyekt yaratishda ishlatiladigan, klassning bir funksiyasi bo'lgan maxsus metoddir. Klassdan yangi obyekt yaratilganda, constructor avtomatik ravishda 
+ishga tushadi va obyektning boshlang'ich holatini sozlaydi.
+
